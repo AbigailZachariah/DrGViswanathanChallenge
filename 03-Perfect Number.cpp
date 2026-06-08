@@ -22,6 +22,7 @@ int main(){
     cin>>n;
 
     bool perfect=checkPerfectNumber(n);
+    
     if(perfect) cout<<"Perfect number!";
     else cout<<"Not a perfect number!";
 
